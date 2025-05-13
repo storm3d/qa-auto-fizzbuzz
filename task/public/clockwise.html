@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>ClockWise</title></head>
+<body>
+  <button id="run">Run</button>
+  <div id="output"></div>
+
+  <script>
+    document.getElementById('run').addEventListener('click', () => {
+      const out = document.getElementById('output');
+      out.innerHTML = '';            // clear previous
+      // TODO generate output sequence
+      out.insertAdjacentHTML('beforeend', `<div class="line">Write Me!</div>`);
+    });
+  </script>
+</body>
+</html>
