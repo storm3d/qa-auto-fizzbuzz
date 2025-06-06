@@ -1,6 +1,6 @@
 const expect = require('@wdio/globals').expect;
 
-describe('ClockWise page', () => {
+describe('ClockWise FizzBuzz', () => {
   it('renders correct sequence', async () => {
     // open page, click Run, add assertions
   });
